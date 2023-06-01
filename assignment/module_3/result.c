@@ -1,11 +1,7 @@
 #include <stdio.h>
 int main(){
-    char name;
-    // printf("enter your name: ");
-    // scanf("%s",&name);
-    // printf("%s",name);
     int maths, science, sst, english, gujarati,sanskrit;
-        printf("enter your marks (out of 100) \n");
+        printf("enter your marks (out of 100) for given subject \n");
         printf("maths: ");
         scanf("%d",&maths);
         printf("science: ");
@@ -19,7 +15,7 @@ int main(){
         printf("sanskrit: ");
         scanf("%d",&sanskrit);
             float sum=maths+ science+ sst+ english+ gujarati+sanskrit;
-            printf("sum of marks of ALL Subject is %f\n",sum);
+            printf("sum of marks of ALL Subject is %f (out of 600)\n",sum);
     float percentage= sum/6;
     printf("you got %f percentage\n",percentage);
                 if (percentage>75)
