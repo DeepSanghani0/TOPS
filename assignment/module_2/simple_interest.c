@@ -13,7 +13,7 @@ int main(){
     printf("enter the rate of interest: ");
     scanf("%f",&R);
 
-    printf("enter the duration: ");
+    printf("enter the duration(in year): ");
     scanf("%d",&N);
 
     SI=((P * R * N)/100);
