@@ -18,7 +18,6 @@ int main(){
         scanf("%d",&gujarati);
         printf("sanskrit: ");
         scanf("%d",&sanskrit);
-            
             float sum=maths+ science+ sst+ english+ gujarati+sanskrit;
             printf("sum of marks of ALL Subject is %f\n",sum);
     float percentage= sum/6;
