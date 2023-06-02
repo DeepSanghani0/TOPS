@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main(){
     int a,b;
-    printf("enter the value of a,b");
+    printf("enter the value of a , b: ");
     scanf("%d%d",&a,&b);
     printf("before swaping value of a = %d & b = %d \n",a,b);
     a=b-a;
