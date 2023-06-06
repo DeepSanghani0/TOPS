@@ -1,5 +1,10 @@
 #include <stdio.h>
 int main(){
+    char first_name[20];
+    printf("Enter your first name: ");
+    scanf("%s", first_name);
+     printf("Your full name is %s \n", first_name);
+
     int maths, science, sst, english, gujarati,sanskrit;
         printf("enter your marks (out of 100) for given subject \n");
         printf("maths: ");
