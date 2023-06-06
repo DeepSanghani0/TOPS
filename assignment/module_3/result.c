@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    char first_name[20];
+    char first_name[15];
     printf("Enter your first name: ");
     scanf("%s", first_name);
      printf("Your full name is %s \n", first_name);
