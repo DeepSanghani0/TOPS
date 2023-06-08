@@ -1,3 +1,4 @@
+//Write a program of to find out the Area of Triangle, Rectangle and Circleusing Switch Case .(Must Be Menu Driven) 
 #include<stdio.h>
 #include<math.h>
 int main(){

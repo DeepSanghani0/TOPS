@@ -1,3 +1,4 @@
+//find age
 #include<stdio.h>
 int main(){
     int currentage = 23;
