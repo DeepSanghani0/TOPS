@@ -1,9 +1,13 @@
 //Write a program of to find out the Area of Triangle, Rectangle and Circleusing Switch Case .(Must Be Menu Driven) 
 #include<stdio.h>
 #include<math.h>
-int main(){
+int main()
+{
     int shape;
-    printf("enter  1: area of squre  2: area of rectangle    3: area of circle ");
+    printf("enter  1: area of squre \n");
+    printf("2: area of rectangle \n");    
+    printf("3: area of circle \n"); 
+    printf("4: area of trinagle \n");
     scanf("%d",&shape);
     switch (shape)
     {
@@ -30,6 +34,18 @@ int main(){
         scanf("%f",&r);
         area= 2*pi*r;
         printf("area of circler is %f",area);
+    }
+    case 4:{
+        float a,b,c,s,area;
+        printf("enter the sides of a: ");
+        scanf("%f",&a);
+        printf("enter the sides of b: ");
+        scanf("%f",&b);
+        printf("enter the sides of c: ");
+        scanf("%f",&c);
+        s=((a+b+c)/2);
+        area = sqrt(s*(s-a)*(s-b)*(s-c));
+        printf("area of triangle is %f",area);
     }
     
     default:{
