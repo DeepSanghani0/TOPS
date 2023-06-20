@@ -10,7 +10,7 @@ int main(){
    printf("enter the value of c : ");
    scanf("\n%d",&c);
    
- (a>b && a>c) ? (printf("a is largest number")) : ((b>a && b>c) ? (printf("b is largest")) : (c>a && c>b) ? (printf("c is largest number")) : printf("nothing"));
+ (a>b && a>c) ? (printf("a is largest number")) : ((b>a && b>c) ? (printf("b is largest")) : (c>a && c>b) ? (printf("c is largest number")) : printf("all the number are s"));
    
    return 0;
 }
