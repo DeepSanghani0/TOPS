@@ -8,16 +8,16 @@ int main(){
     switch (sign)
     {
     case '+':
-        printf("%d",a+b);
+        printf("sum of given  number is %d",a+b);
         break;
     case '-':
-        printf("%d",a-b);
+        printf("substracrion of given number is %d",a-b);
         break;
     case '*':
-        printf("%d",a*b);
+        printf("multiplication of given number is %d",a*b);
         break;
     case '/':
-        printf("%d",a/b);
+        printf("division of given number is %d",a/b);
         break;
     default:
         printf("enter valid number & sign");
