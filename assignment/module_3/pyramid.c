@@ -5,8 +5,8 @@ int main(){
     scanf("%d",&rows);
     for (int i = 1; i <= rows; i++)
     {   
-        m=i-1;
-        for (int k = 1; k < 6-i; k++)
+        // m=i-1;
+        for (int k = 1; k < (9-i); k++)
         {
             printf(" ");
         }
@@ -16,11 +16,11 @@ int main(){
             printf("%d",j);
         }
         
-
         for (int l = 1; l <= i-1; l++)
         {
-            printf("%d",m);
-            m--;
+            // printf("%d",m);
+            // m--;
+            printf("*");
         }
         printf("\n");
     }
