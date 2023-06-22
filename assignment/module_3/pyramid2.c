@@ -20,7 +20,7 @@ int main(){
         {
             printf(" * * * * * ");
         }
-        else{
+        else
         for (int m = 0; m <i; m++)
         {
             printf(" ");
