@@ -15,12 +15,10 @@ int main(){
         {
             printf(" * * * * * ");
         }
-        
         for (int l = 0; l < i; l++)
         {
             printf("  ");
         }
-        
         for (int i = 0; i < 1; i++)
         {
             printf("*");
