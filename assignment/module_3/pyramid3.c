@@ -1,29 +1,20 @@
 #include<stdio.h>
 int main(){
-    int l,m,n,o,rows=10;
-    for (int i = 0; i < rows; i++)
+    int i,j,k,l;
+    for (int i = 1; i <= 4; i++)
     {
-        for (int j = 10; j > i; j--)
+        for (int j = 0; j < i; j++)
         {
             printf(" ");
         }
-        for (int k = 1; k <=1; k++)
+        for (int k = 4; k >= i; k--)
         {
             printf("*");
         }
-        if (i==5)
-        {
-            printf(" * * * * * ");
-        }
-        for (int l = 0; l < i; l++)
-        {
-            printf("  ");
-        }
-        for (int i = 0; i < 1; i++)
-        {
-            printf("*");
-        }
+        
         printf("\n");
     }
+    
+
     return 0;
 }
