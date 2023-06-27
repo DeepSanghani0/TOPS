@@ -1,3 +1,12 @@
+/*
+    Write a program user enter the 5 subjects mark. You have to make a total and 
+    find the percentage. 
+    a) percentage > 75 you have to print “Distinction” 
+    b) percentage > 60 and percentage <= 75 you have to print “First class” 
+    c) percentage >50 and percentage <= 60 you have to print “Second class”
+    d) percentage > 35 and percentage <= 50 you have to print “Pass class” 
+    e) Otherwise print “Fail”
+*/
 #include <stdio.h>
 int main(){
     char first_name[15];
