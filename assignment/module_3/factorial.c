@@ -1,3 +1,4 @@
+//Write a program to find out the factorial of given number using function
 #include<stdio.h>
 int fect(int no);
 
