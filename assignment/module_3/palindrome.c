@@ -8,9 +8,7 @@ int main(){
     b=(no/100)-(a*10);
     c=((no/10)-(a*100)-(b*10));
     d=(no-(a*1000)-(b*100)-(c*10)); 
-
-    // printf("%d %d %d  %d",a,b,c,d);
-
+    
     if (a==d && b==c)
     {
         printf("given number is palindrome");
