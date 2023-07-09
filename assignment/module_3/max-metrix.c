@@ -23,6 +23,7 @@ int display(){
         printf("\n");
     }
 }
+
 int max = -1;
 int maximum(){
     for (int i = 0; i < 3; i++)
