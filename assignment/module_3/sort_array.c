@@ -2,7 +2,14 @@
 #include<stdio.h>
 int main(){
     int i,max;
-    int array[5]={12,26,15,17,23};
+    int array[i];
+//input
+    for (int i = 0; i < 5; i++)
+    {
+        printf("enter the value of arry[%d]: ",i);
+        scanf("%d",&array[i]);
+    }
+    
 
     for (int i = 0; i < 5; i++)
     {
