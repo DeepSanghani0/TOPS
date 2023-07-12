@@ -15,7 +15,7 @@ int main(){
         printf("enter your name: ");
         scanf("%s",&emdt[i].name);
         printf("enter your age: ");
-        scanf("%d",&emdt[i].age);
+        scanf("%d ",&emdt[i].age);
         printf("enter your address: ");
         scanf("%s",&emdt[i].address);
     }
