@@ -9,8 +9,6 @@ int main(){
         printf("enter the value of arry[%d]: ",i);
         scanf("%d",&array[i]);
     }
-    
-
     for (int i = 0; i < 5; i++)
     {
         printf("%d ",array[i]);
