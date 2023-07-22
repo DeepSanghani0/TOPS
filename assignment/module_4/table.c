@@ -4,7 +4,7 @@
 int main(){
     FILE *table;
    
-    printf("enter no.: ");
+    printf("enter no.: \n");
     scanf("%d",&no);
     for (int i = 1; i <= 10; i++)
     {
@@ -12,13 +12,15 @@ int main(){
     {
     table = fopen("table.txt","a");
     fscanf(table,"%d %d %d",&no,&i,&multiply);
-    fprintf(table,"%d %d %d \n",no,i,multiply);
+    fprintf(table,"\n %d %d %d",no,i,multiply);
     fclose(table);
     }
     
+    
+    }
     //read data from file
     table = fopen("table.txt","r");
-    ch = fgetc(table);
+    // ch = fgetc(table);
 
     while (ch != EOF)
     {
@@ -26,6 +28,5 @@ int main(){
         printf("%c",ch);
     } 
     fclose(table);
-    }
     return 0;
 }
