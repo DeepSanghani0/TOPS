@@ -14,7 +14,7 @@ public:
     cout<<"enter value of y";
     cin>>y;
         multiply=x*y;
-        cout<<"vakueof multiply = "<<multiply<<endl;
+        cout<<"value of multiply = "<<multiply<<endl;
     }
     inline int cube()
     {
