@@ -14,7 +14,7 @@ class simple
         cin>>time;
         SI=((principal*rate*time)/100);
         cout<<"simple interst of given values are : "<<SI<<endl;
-        cout<<"total payable amount is "<< SI+principal<<endl;
+        cout<<"total payable amount is "<< SI+principal<<endl; 
     }
 };
 
