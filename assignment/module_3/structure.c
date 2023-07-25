@@ -20,7 +20,7 @@ int main(){
         scanf("%s",&emdt[i].address);
     }
     printf("-----------------------------------------\n");
-    printf("|emp no.| name\t| age\t| address\t| \n");
+    printf("|emp no.| name\t| age\t| address| \n");
     for (int i = 0; i < 3; i++)
     {
         printf("|%d\t| %s\t| %d\t| %s\t| \n",emdt[i].emplno,emdt[i].name,emdt[i].age,emdt[i].address);

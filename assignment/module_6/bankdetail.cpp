@@ -55,6 +55,7 @@ class bankdetail
         if (withdraw > bal1)
         {
             cout<<"insufician balance";
+            cout<<endl;
             bal2=bal1;
         }
         else
