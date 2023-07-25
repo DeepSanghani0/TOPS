@@ -16,6 +16,9 @@ class simple
     initialize()
     {
         SI=((principal*rate*time)/100);
+    }
+    display()
+    {
         cout<<"simple interst of given values are : "<<SI<<endl;
         cout<<"total payable amount is "<< SI+principal<<endl; 
     }
@@ -23,7 +26,9 @@ class simple
 
 int main()
 {
-    simple s1;
     
+    simple s2;
+    s2.initialize();
+    s2.display();
     return 0;
 }
