@@ -24,5 +24,6 @@ class simple
 int main()
 {
     simple s1;
+    
     return 0;
 }
