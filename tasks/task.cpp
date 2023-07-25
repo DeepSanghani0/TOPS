@@ -26,10 +26,12 @@ public:
 };
 int main()
 {
-    D d1;
-    d1.adata();
-    d1.bdata();
-    d1.cdata();
-    d1.ddata();
+    A a;
+    B b;
+    C c;
+    a.adata();
+    b.bdata();
+    c.cdata();
+
     return 0;
 }
