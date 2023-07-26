@@ -5,7 +5,7 @@ class A
 public:     
     void adata()
     {
-        cout<<"This is class A."<<endl;
+        cout<<"your name is deep"<<endl;
     }
 };
 class B : virtual public A
@@ -13,7 +13,7 @@ class B : virtual public A
 public: 
     void bdata()
     {
-        cout<<"This is class B."<<endl;
+        cout<<"name: yug"<<endl;
     }
 };
 class C : virtual public A
@@ -21,7 +21,7 @@ class C : virtual public A
 public: 
     void cdata()
     {
-        cout<<"This is class c."<<endl;
+        cout<<"name : meet"<<endl;
     }
 };
 int main()
