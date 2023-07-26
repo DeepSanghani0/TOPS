@@ -3,33 +3,33 @@
 using namespace std;
 class multiplication
 {
+public: 
     int multiply;
     int x;
     int y;
-public: 
-    inline int  multi()
+        
+    inline int  multi(int x,int y)
     {
-    cout<<"enter value of x";
-    cin>>x;
-    cout<<"enter value of y";
-    cin>>y;
-        multiply=x*y;
-        cout<<"value of multiply = "<<multiply<<endl;
+    return x*y;
     }
-    inline int cube()
+    inline int cubex(int x)
     {
-        int square1,square2;
-        square1= x*x;
-        square2= y*y;
-        cout<<"square of "<< x <<" is : "<< square1<<endl; 
-        cout<<"square of "<< y <<" is : "<< square2<<endl; 
-        return 0;
+        return x*x*x;
+    }
+    inline int cubey(int y)
+    {
+        return y*y*y;
     }
 };
 int main()
 {
-    multiplication multiply;
-    multiply.multi();
-    multiply.cube();
-    return 0;
+    int x,y;
+    cout<<"enter value of x: ";
+    cin>>x;
+    cout<<"enter value of y: ";
+    cin>>y;
+    multiplication obj;
+    cout<<"value of multiply is: "<<obj.multi(x,y)<<endl;
+    cout<<"value of cube of x is: "<<obj.cubex(x)<<endl;
+    cout<<"value of cube of y is: "<<obj.cubey(y)<<endl;
 }

@@ -20,7 +20,7 @@ class simple
     display()
     {
         cout<<"simple interst of given values are : "<<SI<<endl;
-        cout<<"total payable amount is "<< SI+principal<<endl; 
+        cout<<"total return payable amount is "<< SI+principal<<endl; 
     }
 };
 
