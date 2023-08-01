@@ -8,7 +8,7 @@ struct employ
 int main(){
     struct employ emdt[40];
 
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 2; i++)
     {
         printf("enter employ id: ");
         scanf("%d",&emdt[i].emplno);
@@ -21,7 +21,7 @@ int main(){
     }
     printf("-----------------------------------------\n");
     printf("|emp no.| name\t| age\t| address| \n");
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 2; i++)
     {
         printf("|%d\t| %s\t| %d\t| %s\t| \n",emdt[i].emplno,emdt[i].name,emdt[i].age,emdt[i].address);
     }

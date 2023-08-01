@@ -1,27 +1,27 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 class A
 {
-public:     
+public:
     void adata()
     {
-        cout<<"your name is deep"<<endl;
+        cout << "your name is deep" << endl;
     }
 };
 class B : virtual public A
 {
-public: 
+public:
     void bdata()
     {
-        cout<<"name: yug"<<endl;
+        cout << "name: yug" << endl;
     }
 };
 class C : virtual public A
 {
-public: 
+public:
     void cdata()
     {
-        cout<<"name : meet"<<endl;
+        cout << "name : meet" << endl;
     }
 };
 int main()

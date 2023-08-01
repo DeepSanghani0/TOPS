@@ -19,14 +19,13 @@ class simple
     }
     display()
     {
-        cout<<"simple interst of given values are : "<<SI<<endl;
+        cout<<"simple interst is : "<<SI<<endl;
         cout<<"total return payable amount is "<< SI+principal<<endl; 
     }
 };
 
 int main()
 {
-    
     simple s2;
     s2.initialize();
     s2.display();
