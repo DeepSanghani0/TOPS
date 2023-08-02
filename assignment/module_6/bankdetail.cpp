@@ -50,7 +50,7 @@ class bankdetail
         bal2=bal1+deposite;
         break;
     case 2:
-        cout<<"enter amount of withdrow: ";
+        cout<<"how much amount do you want to withdrow: ";
         cin>>withdraw;
         if (withdraw > bal1)
         {
