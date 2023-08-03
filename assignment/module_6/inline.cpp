@@ -29,7 +29,7 @@ int main()
     cout<<"enter value of y: ";
     cin>>y;
     multiplication obj;
-    cout<<"value of multiply is: "<<obj.multi(x,y)<<endl;
+    cout<<"value  of multiply is: "<<obj.multi(x,y)<<endl;
     cout<<"value of cube of x is: "<<obj.cubex(x)<<endl;
     cout<<"value of cube of y is: "<<obj.cubey(y)<<endl;
 }
