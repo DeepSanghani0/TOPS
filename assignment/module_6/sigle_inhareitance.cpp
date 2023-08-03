@@ -10,7 +10,7 @@ class cricketer
 public:
     cricketer()
     {
-        cout<<"name of cricketer is: 11 \n";
+        cout<<"number of cricketer is: 11 \n";
     }
 };
 class batsman : public cricketer
@@ -18,7 +18,7 @@ class batsman : public cricketer
 public:
     batsman()
     {
-        cout<<"name of batsman is: 5";
+        cout<<"number of batsman is: 5";
     }
 };
 int main()

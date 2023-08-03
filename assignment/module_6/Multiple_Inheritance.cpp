@@ -64,10 +64,10 @@ public:
 
 int main()
 {
-    teacher t1;
-    t1.detailperson();
-    t1.studentdetail();
-    t1.teacherdetail();
-    t1.display();
+    teacher obj;
+    obj.detailperson();
+    obj.studentdetail();
+    obj.teacherdetail();
+    obj.display();
     return 0;
 }
