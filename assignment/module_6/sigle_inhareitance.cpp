@@ -1,16 +1,16 @@
 /*
-Assume a class cricketer is declared. Declare a derived class batsman from cricketer .Data member of batsman. Total runs, Average runs and best performance. 
-Member functions 
+Assume a class cricketer is declared. Declare a derived class batsman from cricketer .Data member of batsman. Total runs, Average runs and best performance.
+Member functions
 input data, calculate average runs, Display data. (Single Inheritance)
 */
-#include<iostream>
+#include <iostream>
 using namespace std;
 class cricketer
 {
 public:
     cricketer()
     {
-        cout<<"number of cricketer is: 11 \n";
+        cout << "number of cricketer is: 11 \n";
     }
 };
 class batsman : public cricketer
@@ -18,7 +18,7 @@ class batsman : public cricketer
 public:
     batsman()
     {
-        cout<<"number of batsman is: 5";
+        cout << "number of batsman is: 5";
     }
 };
 int main()
