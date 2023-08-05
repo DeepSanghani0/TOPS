@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/tops/assignment/module_3",
-      "program": "d:/tops/assignment/module_3/build/Debug/outDebug",
+      "cwd": "d:/tops/assignment/module_6",
+      "program": "d:/tops/assignment/module_6/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
