@@ -7,8 +7,8 @@ void fun(X a, Y b)
     c = a;
     a = b;
     b = c;
-    std::cout << "After swaping Value of a is : " << a << std::endl;
-    std::cout << "After swaping Value of b is : " << b << std::endl;
+    cout << "After swaping Value of a is : " << a <<endl;
+    cout << "After swaping Value of b is : " << b <<endl;
 }
 
 int main()
