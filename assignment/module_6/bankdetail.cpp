@@ -63,8 +63,7 @@ class bankdetail
         bal2=bal1-withdraw;
         }
         break;
-    }
-    }
+    }    }
     //display 
    int display()
    {
